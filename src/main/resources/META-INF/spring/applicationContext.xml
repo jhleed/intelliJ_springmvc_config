@@ -2,9 +2,5 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/"/>
-        <property name="suffix" value=".jsp"/>
-    </bean>
+    <!--웹과 종속적이지 않은 bean을 설정. 예 : 프로필-->
 </beans>
